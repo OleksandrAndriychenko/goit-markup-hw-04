@@ -247,7 +247,8 @@ img{
     border-top: none;
 }
 .footer > .container{
-    display: block;
+    display: flex;
+    align-items: baseline;
 }
 .p-footer{
     max-width: 264px;
@@ -326,4 +327,19 @@ img{
 }
 .section-four-list-item:hover .wrapper-p{
     transform: translateY(0%);
+}
+.footer-wrapper{
+    margin-right: 120px;
+}
+.social-p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.list-icons-footer{
+    display: flex;
+    gap: 16px;
 }
