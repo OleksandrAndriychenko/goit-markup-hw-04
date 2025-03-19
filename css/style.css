@@ -3,7 +3,6 @@ body{
     background-color:#fff;
     color: #434455;
     margin: 0;
-    max-width: 1440px;
 }
 *,
 *::before,
@@ -143,6 +142,7 @@ img{
     background-position: center;
     background-size: cover;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 
 }
 .section-three{
@@ -346,5 +346,7 @@ img{
 .icons-footer:hover,
 .icons-footer:focus{
     background-color: #31d0aa;
-
+}
+.section-three-p{
+    margin-bottom: 8px;
 }
