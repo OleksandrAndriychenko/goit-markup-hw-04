@@ -39,6 +39,7 @@ a{
 img{
     display: block;
 }
+
 .page-header{
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -99,7 +100,7 @@ img{
 }
 .link-logo-header{
     line-height: 1.17;
-    color: #404bbf;;
+    color: #404bbf;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -112,7 +113,7 @@ img{
     color: #2e2f42;
 }
 .nav-link{
-    color:#404bbf;;
+    color:#2e2f42;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -267,7 +268,10 @@ img{
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
 }
-.link-studio::after{
+.current{
+    color: #404BBF;
+}
+.current::after{
     content: "";
     width: 100%;
     position: absolute;
